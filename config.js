@@ -9,16 +9,16 @@ module.exports = {
             per_hour: 1
         },
         role_creations: {
-            per_minute: 1,
-            per_hour: 1
+            per_minute: 2,
+            per_hour: 2
         },
         channel_creations: {
             per_minute: 1,
             per_hour: 1
         },
         role_deletions: {
-            per_minute: 1,
-            per_hour: 1
+            per_minute: 0,
+            per_hour: 0
         },
         channel_deletions: {
             per_minute: 1,
@@ -30,12 +30,12 @@ module.exports = {
         
     },
         emoji_creations: {
-            per_minute: 1,
-            per_hour: 1
+            per_minute: 0,
+            per_hour: 0
         },
         emoji_deletions: {
-            per_minute: 1,
-            per_hour: 1
+            per_minute: 0,
+            per_hour: 0
         }
     },
     
